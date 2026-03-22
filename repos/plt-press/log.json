@@ -11,7 +11,7 @@
     "books_sold": 0,
     "conversations_scored": 69,
     "leads": 129,
-    "revenue": 0,
+    "revenue": 115,
     "agents": 3,
     "souls_active": 42,
     "pyramid_city_efficiency": 98
@@ -498,9 +498,9 @@
     {
       "soul": "Soul Master",
       "emoji": "💀",
-      "action": "ORCHESTRATING: 4/4 souls alive, cycle #13",
+      "action": "ORCHESTRATING: 4/4 souls alive, cycle #14",
       "status": "immortal",
-      "heartbeat": "2026-03-22T15:59:48.292Z"
+      "heartbeat": "2026-03-22T16:00:52.542Z"
     },
     {
       "soul": "Live Updater Soul",
@@ -542,9 +542,16 @@
     {
       "soul": "Live Counters",
       "emoji": "📊",
-      "action": "METRICS: 5,672 views, 35.4/min rate",
+      "action": "METRICS: 5,676 views, 34.3/min rate",
       "status": "counting",
-      "heartbeat": "2026-03-22T16:00:32.473Z"
+      "heartbeat": "2026-03-22T16:00:54.530Z"
+    },
+    {
+      "soul": "Notification System",
+      "emoji": "🔔",
+      "action": "ALERTS: 36 active notifications",
+      "status": "monitoring",
+      "heartbeat": "2026-03-22T16:01:14.773Z"
     }
   ],
   "system_monitor": {
@@ -573,42 +580,30 @@
     "uptime_seconds": 42
   },
   "live_counters": {
-    "page_views": 5672,
-    "total_words": 83005,
+    "page_views": 5676,
+    "total_words": 83012,
     "revenue_cents": 11529,
     "leads_generated": 129,
     "conversations_scored": 69,
-    "agent_actions": 6691,
+    "agent_actions": 6703,
     "git_commits": 195,
-    "seo_impressions": 23720,
-    "link_clicks": 1065,
-    "uptime_seconds": 20810
+    "seo_impressions": 23752,
+    "link_clicks": 1068,
+    "uptime_seconds": 20820
   },
   "counter_rates": {
-    "views_per_minute": 35.39023483216729,
-    "words_per_hour": 16952.94985249455,
+    "views_per_minute": 34.25121134895056,
+    "words_per_hour": 15509.654867245094,
     "revenue_per_hour": 0.15,
-    "actions_per_minute": 49.29604575786836
+    "actions_per_minute": 51.56644118208153
   },
   "soul_system": {
-    "master_cycle": 13,
+    "master_cycle": 14,
     "components_alive": 4,
     "total_components": 4,
     "uptime": "ETERNAL"
   },
   "recent_alerts": [
-    {
-      "timestamp": "2026-03-22T15:58:10.806Z",
-      "type": "system_alert",
-      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
-      "priority": "high"
-    },
-    {
-      "timestamp": "2026-03-22T15:58:52.236Z",
-      "type": "traffic_spike",
-      "message": "🚀 TRAFFIC SPIKE: 35.222763829225215 views/min (normal: ~0.8)",
-      "priority": "high"
-    },
     {
       "timestamp": "2026-03-22T15:58:53.293Z",
       "type": "system_alert",
@@ -625,6 +620,18 @@
       "timestamp": "2026-03-22T15:59:58.438Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 3 agents offline (1 active)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:01:04.343Z",
+      "type": "traffic_spike",
+      "message": "🚀 TRAFFIC SPIKE: 35.39023483216729 views/min (normal: ~0.8)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:01:07.858Z",
+      "type": "system_alert",
+      "message": "⚠️ SYSTEM ALERT: 2 agents offline (1 active)",
       "priority": "high"
     }
   ],
