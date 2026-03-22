@@ -555,9 +555,16 @@
     {
       "soul": "Live Counters",
       "emoji": "📊",
-      "action": "METRICS: 6,620 views, 26.4/min rate",
+      "action": "METRICS: 6,626 views, 27.4/min rate",
       "status": "counting",
-      "heartbeat": "2026-03-22T16:48:18.212Z"
+      "heartbeat": "2026-03-22T16:48:33.419Z"
+    },
+    {
+      "soul": "Notification System",
+      "emoji": "🔔",
+      "action": "ALERTS: 162 active notifications",
+      "status": "monitoring",
+      "heartbeat": "2026-03-22T16:48:35.685Z"
     }
   ],
   "system_monitor": {
@@ -586,22 +593,22 @@
     "uptime_seconds": 40
   },
   "live_counters": {
-    "page_views": 6620,
-    "total_words": 91651,
+    "page_views": 6626,
+    "total_words": 91660,
     "revenue_cents": 12524,
     "leads_generated": 137,
     "conversations_scored": 76,
-    "agent_actions": 8228,
+    "agent_actions": 8233,
     "git_commits": 212,
-    "seo_impressions": 28036,
-    "link_clicks": 1505,
-    "uptime_seconds": 22740
+    "seo_impressions": 28061,
+    "link_clicks": 1508,
+    "uptime_seconds": 22750
   },
   "counter_rates": {
-    "views_per_minute": 26.426581585519628,
-    "words_per_hour": 17142.19411741973,
+    "views_per_minute": 27.383923426967666,
+    "words_per_hour": 15751.974705677758,
     "revenue_per_hour": 0.15,
-    "actions_per_minute": 49.20651801797254
+    "actions_per_minute": 47.285866216175286
   },
   "soul_system": {
     "master_cycle": 60,
@@ -610,18 +617,6 @@
     "uptime": "ETERNAL"
   },
   "recent_alerts": [
-    {
-      "timestamp": "2026-03-22T16:45:29.703Z",
-      "type": "system_alert",
-      "message": "⚠️ SYSTEM ALERT: 2 agents offline (1 active)",
-      "priority": "high"
-    },
-    {
-      "timestamp": "2026-03-22T16:46:39.351Z",
-      "type": "traffic_spike",
-      "message": "🚀 TRAFFIC SPIKE: 19.209958557054552 views/min (normal: ~0.8)",
-      "priority": "high"
-    },
     {
       "timestamp": "2026-03-22T16:46:41.768Z",
       "type": "system_alert",
@@ -636,6 +631,18 @@
     },
     {
       "timestamp": "2026-03-22T16:47:40.036Z",
+      "type": "system_alert",
+      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:48:29.965Z",
+      "type": "traffic_spike",
+      "message": "🚀 TRAFFIC SPIKE: 26.426581585519628 views/min (normal: ~0.8)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:48:31.573Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
       "priority": "high"
