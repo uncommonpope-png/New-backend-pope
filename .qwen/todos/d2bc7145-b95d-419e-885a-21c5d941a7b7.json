@@ -1,0 +1,30 @@
+{
+  "todos": [
+    {
+      "content": "Create Oracle Cloud deployment package (scripts, systemd services, docs)",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Create one-click deploy script for Oracle Cloud ARM instance",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Create systemd services for Pantheon (ollama, web server, seshkraken)",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Create cloud immortality documentation and setup guide",
+      "id": "4",
+      "status": "completed"
+    },
+    {
+      "content": "Test and verify deployment package is complete",
+      "id": "5",
+      "status": "completed"
+    }
+  ],
+  "sessionId": "d2bc7145-b95d-419e-885a-21c5d941a7b7"
+}

@@ -1,0 +1,103 @@
+2026-03-22T22:25:48.181Z [INFO] Config initialization started
+2026-03-22T22:25:48.221Z [DEBUG] [BUNDLED_SKILL_LOADER] SkillManager not available, skipping bundled skills
+2026-03-22T22:25:48.423Z [DEBUG] Extension manager initialized
+2026-03-22T22:25:48.424Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-22T22:25:48.542Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-22T22:25:48.546Z [DEBUG] [SKILL_MANAGER] Skipping project-level skills: project root is home directory
+2026-03-22T22:25:48.547Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-22T22:25:48.548Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-22T22:25:48.547Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-22T22:25:48.582Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-22T22:25:48.582Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-22T22:25:48.583Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-22T22:25:48.583Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-22T22:25:48.583Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-22T22:25:48.586Z [WARN] [SKILL_MANAGER] Bundled skills directory not found: /data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/bundled. This may indicate an incomplete installation.
+2026-03-22T22:25:48.587Z [DEBUG] [SKILL_MANAGER] Loaded 0 bundled level skills
+2026-03-22T22:25:48.588Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-22T22:25:48.604Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-22T22:25:48.604Z [DEBUG] Skill manager initialized
+2026-03-22T22:25:48.606Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home (importFormat: tree)
+2026-03-22T22:25:48.659Z [DEBUG] [MEMORY_DISCOVERY] Found readable global QWEN.md: /data/data/com.termux/files/home/.qwen/QWEN.md
+2026-03-22T22:25:48.668Z [DEBUG] [MEMORY_DISCOVERY] Found readable home QWEN.md: /data/data/com.termux/files/home/QWEN.md
+2026-03-22T22:25:48.741Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/QWEN.md","/data/data/com.termux/files/home/QWEN.md","/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-22T22:25:48.927Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/QWEN.md (Length: 68)
+2026-03-22T22:25:48.995Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219617:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219589:25)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219247:39
+2026-03-22T22:25:49.078Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-22T22:25:49.091Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/QWEN.md (Length: 9073)
+2026-03-22T22:25:49.093Z [DEBUG] Hierarchical memory loaded
+2026-03-22T22:25:49.099Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-22T22:25:49.099Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-22T22:25:49.099Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-22T22:25:49.099Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-22T22:25:49.099Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-22T22:25:49.099Z [DEBUG] [SKILL_MANAGER] Processing 0 bundled level skills
+2026-03-22T22:25:49.099Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-22T22:25:49.139Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-22T22:25:49.139Z [INFO] Tool registry initialized with 15 tools
+2026-03-22T22:25:49.250Z [INFO] Gemini client initialized
+2026-03-22T22:25:49.257Z [INFO] Config initialization completed
+2026-03-22T22:25:49.316Z [DEBUG] [SKILL_MANAGER] Listing skills at level: bundled
+2026-03-22T22:25:49.316Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-22T22:25:49.316Z [DEBUG] [SKILL_MANAGER] Processing 0 bundled level skills
+2026-03-22T22:25:49.316Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-22T22:25:49.321Z [DEBUG] [BUNDLED_SKILL_LOADER] Loaded 0 bundled skill(s) as slash commands
+2026-03-22T22:25:56.495Z [DEBUG] Received user query (12 chars)
+2026-03-22T22:26:48.474Z [DEBUG] Received user query (24 chars)
+2026-03-22T22:26:58.124Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:26:58.251Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:26:58.182Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:26:58.317Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:28:19.169Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:35:04.691Z [DEBUG] Received user query (6 chars)
+2026-03-22T22:35:33.487Z [DEBUG] Received user query (19 chars)
+2026-03-22T22:36:11.951Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:36:12.074Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:36:12.141Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:36:12.006Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:38:01.485Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:38:01.537Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:38:01.586Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:39:12.780Z [DEBUG] Received user query (81 chars)
+2026-03-22T22:40:22.540Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:40:22.497Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:41:26.971Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:41:27.031Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:41:27.087Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:43:14.992Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:43:15.040Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:43:15.089Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:43:53.171Z [DEBUG] [WEB_FETCH] [WebFetchTool] Public URL detected for https://uncommonpope-png.github.io/plt-press/dashboard.html, using direct fetch
+2026-03-22T22:43:53.172Z [DEBUG] [WEB_FETCH] [WebFetchTool] Fetching content from: https://uncommonpope-png.github.io/plt-press/dashboard.html
+2026-03-22T22:43:53.631Z [DEBUG] [WEB_FETCH] [WebFetchTool] Successfully fetched content from https://uncommonpope-png.github.io/plt-press/dashboard.html
+2026-03-22T22:43:53.992Z [DEBUG] [WEB_FETCH] [WebFetchTool] Converted HTML to text (2258 characters)
+2026-03-22T22:43:53.992Z [DEBUG] [WEB_FETCH] [WebFetchTool] Processing content with prompt: "Find all chat/AI implementations, check if they connect to backend API, note any errors or issues with chat functionality"
+2026-03-22T22:43:57.691Z [DEBUG] [WEB_FETCH] [WebFetchTool] Successfully processed content from https://uncommonpope-png.github.io/plt-press/dashboard.html
+2026-03-22T22:43:57.692Z [DEBUG] [WEB_FETCH] [WebFetchTool] Public URL detected for https://uncommonpope-png.github.io/plt-press/chat.html, using direct fetch
+2026-03-22T22:43:57.692Z [DEBUG] [WEB_FETCH] [WebFetchTool] Fetching content from: https://uncommonpope-png.github.io/plt-press/chat.html
+2026-03-22T22:43:57.936Z [DEBUG] [WEB_FETCH] [WebFetchTool] Successfully fetched content from https://uncommonpope-png.github.io/plt-press/chat.html
+2026-03-22T22:43:57.954Z [DEBUG] [WEB_FETCH] [WebFetchTool] Converted HTML to text (899 characters)
+2026-03-22T22:43:57.954Z [DEBUG] [WEB_FETCH] [WebFetchTool] Processing content with prompt: "Check if the chat functionality works, what API endpoint it uses, and if there are any connection errors"
+2026-03-22T22:44:07.086Z [DEBUG] [WEB_FETCH] [WebFetchTool] Successfully processed content from https://uncommonpope-png.github.io/plt-press/chat.html
+2026-03-22T22:44:07.087Z [DEBUG] [WEB_FETCH] [WebFetchTool] Fetching content from: https://uncommonpope-png.github.io/plt-press/soul-chat-hub.html
+2026-03-22T22:44:07.087Z [DEBUG] [WEB_FETCH] [WebFetchTool] Public URL detected for https://uncommonpope-png.github.io/plt-press/soul-chat-hub.html, using direct fetch
+2026-03-22T22:44:07.506Z [DEBUG] [WEB_FETCH] [WebFetchTool] Successfully fetched content from https://uncommonpope-png.github.io/plt-press/soul-chat-hub.html
+2026-03-22T22:44:07.532Z [DEBUG] [WEB_FETCH] [WebFetchTool] Converted HTML to text (2078 characters)
+2026-03-22T22:44:07.532Z [DEBUG] [WEB_FETCH] [WebFetchTool] Processing content with prompt: "Check if the soul chat hub is working, what backend it connects to, and if there are any errors"
+2026-03-22T22:44:12.681Z [DEBUG] [WEB_FETCH] [WebFetchTool] Successfully processed content from https://uncommonpope-png.github.io/plt-press/soul-chat-hub.html
+2026-03-22T22:44:24.048Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:44:24.144Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:44:24.680Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:44:24.722Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:44:24.766Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:45:33.308Z [DEBUG] Received user query (73 chars)
+2026-03-22T22:45:33.445Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:47:24.402Z [DEBUG] Received user query (12 chars)
+2026-03-22T22:48:48.292Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:48:48.479Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:48:48.414Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-22T22:48:48.349Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.

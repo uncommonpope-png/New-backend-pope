@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "content": "Create Jarvis-style app with full AI capabilities",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Add file upload and code execution",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Add Termux command execution",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Add image analysis support",
+      "id": "4",
+      "status": "completed"
+    },
+    {
+      "content": "Add full conversation memory sync",
+      "id": "5",
+      "status": "completed"
+    },
+    {
+      "content": "Add voice input/output",
+      "id": "6",
+      "status": "completed"
+    },
+    {
+      "content": "Create APK build for Jarvis app",
+      "id": "7",
+      "status": "completed"
+    }
+  ],
+  "sessionId": "ef0e9878-90c1-4541-ae23-a94ea3f393de"
+}

@@ -1,0 +1,27 @@
+{
+  "providers": {
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434",
+      "apiKey": "OLLAMA_API_KEY",
+      "api": "ollama",
+      "models": [
+        {
+          "id": "qwen2.5:0.5b",
+          "name": "qwen2.5:0.5b",
+          "reasoning": false,
+          "tools": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1024,
+          "maxTokens": 256,
+          "api": "ollama"
+        }
+      ]
+    }
+  }
+}

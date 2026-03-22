@@ -1,0 +1,14 @@
+{
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "open",
+      "groupPolicy": "open",
+      "allowFrom": ["*"],
+      "streaming": "partial"
+    }
+  },
+  "gateway": {
+    "mode": "Local"
+  }
+}

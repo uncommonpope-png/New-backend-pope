@@ -1,0 +1,30 @@
+{
+  "todos": [
+    {
+      "content": "Start Ollama server in background",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Check available Ollama models",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Pull a working model if needed (qwen2.5-coder:1.5b)",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Start OpenClaw gateway manually",
+      "id": "4",
+      "status": "completed"
+    },
+    {
+      "content": "Test the setup",
+      "id": "5",
+      "status": "in_progress"
+    }
+  ],
+  "sessionId": "175b1c40-77d1-4bc7-959d-48c7cc8341f8"
+}

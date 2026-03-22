@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "content": "Create Oracle Cloud account at cloud.oracle.com",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Create ARM compute instance (4 CPU, 24GB RAM)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "SSH into Oracle instance",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Run one-command deploy script",
+      "id": "4",
+      "status": "pending"
+    },
+    {
+      "content": "Test Telegram bot on cloud",
+      "id": "5",
+      "status": "pending"
+    },
+    {
+      "content": "Cleanup phone resources",
+      "id": "6",
+      "status": "pending"
+    },
+    {
+      "content": "Setup auto-backup to GitHub",
+      "id": "7",
+      "status": "pending"
+    }
+  ],
+  "sessionId": "c265a5ef-324a-4ed1-9b12-080f9f202924"
+}

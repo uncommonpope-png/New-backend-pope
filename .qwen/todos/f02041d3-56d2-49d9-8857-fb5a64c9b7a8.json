@@ -1,0 +1,30 @@
+{
+  "todos": [
+    {
+      "content": "Create copilot package structure",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Build copilot scripts and configs",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Create copilot memory integration",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Commit copilot to repo",
+      "id": "4",
+      "status": "completed"
+    },
+    {
+      "content": "Test copilot",
+      "id": "5",
+      "status": "completed"
+    }
+  ],
+  "sessionId": "f02041d3-56d2-49d9-8857-fb5a64c9b7a8"
+}

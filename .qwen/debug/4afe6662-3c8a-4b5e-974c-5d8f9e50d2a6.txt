@@ -1,0 +1,50 @@
+2026-03-22T17:04:43.402Z [INFO] Config initialization started
+2026-03-22T17:04:43.437Z [DEBUG] [BUNDLED_SKILL_LOADER] SkillManager not available, skipping bundled skills
+2026-03-22T17:04:43.615Z [DEBUG] Extension manager initialized
+2026-03-22T17:04:43.616Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-22T17:04:43.790Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-22T17:04:43.791Z [DEBUG] [SKILL_MANAGER] Skipping project-level skills: project root is home directory
+2026-03-22T17:04:43.791Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-22T17:04:43.791Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-22T17:04:43.792Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-22T17:04:43.840Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-22T17:04:43.840Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-22T17:04:43.841Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-22T17:04:43.841Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-22T17:04:43.841Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-22T17:04:43.842Z [WARN] [SKILL_MANAGER] Bundled skills directory not found: /data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/bundled. This may indicate an incomplete installation.
+2026-03-22T17:04:43.842Z [DEBUG] [SKILL_MANAGER] Loaded 0 bundled level skills
+2026-03-22T17:04:43.842Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-22T17:04:43.857Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-22T17:04:43.857Z [DEBUG] Skill manager initialized
+2026-03-22T17:04:43.858Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home (importFormat: tree)
+2026-03-22T17:04:43.894Z [DEBUG] [MEMORY_DISCOVERY] Found readable global QWEN.md: /data/data/com.termux/files/home/.qwen/QWEN.md
+2026-03-22T17:04:43.914Z [DEBUG] [MEMORY_DISCOVERY] Found readable home QWEN.md: /data/data/com.termux/files/home/QWEN.md
+2026-03-22T17:04:43.953Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/QWEN.md","/data/data/com.termux/files/home/QWEN.md","/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-22T17:04:44.129Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/QWEN.md (Length: 68)
+2026-03-22T17:04:44.210Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219617:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219589:25)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219247:39
+2026-03-22T17:04:44.297Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-22T17:04:44.311Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/QWEN.md (Length: 9073)
+2026-03-22T17:04:44.312Z [DEBUG] Hierarchical memory loaded
+2026-03-22T17:04:44.319Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-22T17:04:44.319Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-22T17:04:44.319Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-22T17:04:44.319Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-22T17:04:44.319Z [DEBUG] [SKILL_MANAGER] Processing 0 bundled level skills
+2026-03-22T17:04:44.319Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-22T17:04:44.319Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-22T17:04:44.362Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-22T17:04:44.362Z [INFO] Tool registry initialized with 15 tools
+2026-03-22T17:04:44.572Z [INFO] Gemini client initialized
+2026-03-22T17:04:44.578Z [INFO] Config initialization completed
+2026-03-22T17:04:44.627Z [DEBUG] [SKILL_MANAGER] Listing skills at level: bundled
+2026-03-22T17:04:44.627Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-22T17:04:44.627Z [DEBUG] [SKILL_MANAGER] Processing 0 bundled level skills
+2026-03-22T17:04:44.627Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-22T17:04:44.637Z [DEBUG] [BUNDLED_SKILL_LOADER] Loaded 0 bundled skill(s) as slash commands
+2026-03-22T17:04:57.761Z [DEBUG] Received user query (18 chars)
+2026-03-22T17:37:35.158Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.

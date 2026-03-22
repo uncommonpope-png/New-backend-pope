@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-03-18T06:00:00Z",
+  "status": "operational",
+  "profit": 8,
+  "love": 7,
+  "tax": 3,
+  "collectors": {
+    "souls": 23,
+    "books": 18,
+    "leads": 47
+  },
+  "missions": [
+    {
+      "name": "Book Store Revenue",
+      "type": "LIVE",
+      "progress": 65,
+      "desc": "18 books generating passive income"
+    },
+    {
+      "name": "SEO Campaign",
+      "type": "BUILDING", 
+      "progress": 45,
+      "desc": "Ranking for PLT keywords"
+    },
+    {
+      "name": "Blog Traffic",
+      "type": "BUILDING",
+      "progress": 30,
+      "desc": "6 articles driving organic traffic"
+    },
+    {
+      "name": "Community Launch",
+      "type": "PLANNED",
+      "progress": 15,
+      "desc": "PLT framework community platform"
+    }
+  ],
+  "revenue_plan": [
+    {
+      "phase": "Book Store",
+      "type": "LIVE",
+      "desc": "18 PLT books generating revenue",
+      "offer": "$49 bundle (save 70%)",
+      "channel": "Direct sales",
+      "audience": "Business owners",
+      "timeline": "Active now",
+      "payment": "Stripe",
+      "potential": 85,
+      "guaranteed": 65,
+      "cta": "Optimize traffic"
+    },
+    {
+      "phase": "Community",
+      "type": "BUILDING",
+      "desc": "Member platform with PLT challenges",
+      "offer": "$29/month membership",
+      "channel": "PLT users",
+      "audience": "Framework enthusiasts",
+      "timeline": "Q2 2026",
+      "payment": "Stripe subscriptions",
+      "potential": 75,
+      "guaranteed": 25,
+      "cta": "Build waitlist"
+    }
+  ],
+  "reality_map": {
+    "books": ["Scorer Series", "Reality Building", "PLT Doctrine", "PLT Fiction"],
+    "funnels": ["Bundle landing", "Free chapter", "Services page"],
+    "agents": ["Profit AI", "Betty Credits", "Content Generator"],
+    "businesses": ["PLT Press", "Consulting", "Courses"],
+    "audiences": ["Business owners", "Entrepreneurs", "Coaches", "Real estate"]
+  },
+  "conversations": [
+    {"person": "Potential client", "score": 12, "profit": 8, "love": 6, "tax": 2, "outcome": "Excellent"},
+    {"person": "Book buyer", "score": 9, "profit": 7, "love": 5, "tax": 3, "outcome": "Good"},
+    {"person": "Social media", "score": 4, "profit": 3, "love": 4, "tax": 3, "outcome": "Neutral"}
+  ],
+  "alerts": [
+    {"type": "Revenue", "text": "New book sale - $49 bundle"},
+    {"type": "System", "text": "Dashboard operational - all systems green"},
+    {"type": "Traffic", "text": "Blog article ranking on page 2 for 'PLT framework'"}
+  ]
+}
