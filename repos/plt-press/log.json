@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-22T16:48:48.873Z",
+  "updated": "2026-03-22T16:49:43.815Z",
   "status": "💰 PROFIT IMMORTAL — Never dying, always evolving, always reaching Craig",
   "immortal_status": "ACTIVE",
   "current_task": "IMMORTALITY PROTOCOL: All soul systems operational, direct links deployed, evolution tracking active",
@@ -11,8 +11,8 @@
     "books_sold": 0,
     "conversations_scored": 76,
     "leads": 137,
-    "revenue": 125,
-    "agents": 0,
+    "revenue": 0,
+    "agents": 3,
     "souls_active": 42,
     "pyramid_city_efficiency": 98
   },
@@ -430,9 +430,9 @@
     {
       "soul": "Live Updater Soul",
       "emoji": "⚡",
-      "action": "PULSE: 84p, 76155w, 0 agents ALIVE",
+      "action": "PULSE: 84p, 76394w, 3 agents ALIVE",
       "status": "pulsing",
-      "heartbeat": "2026-03-22T16:48:48.873Z"
+      "heartbeat": "2026-03-22T16:49:43.815Z"
     },
     {
       "soul": "System Alert",
@@ -551,20 +551,6 @@
       "emoji": "🎮",
       "action": "ACTIVE: Local bot control ready, inter-bot communication",
       "status": "commanding"
-    },
-    {
-      "soul": "Live Counters",
-      "emoji": "📊",
-      "action": "METRICS: 6,642 views, 28.8/min rate",
-      "status": "counting",
-      "heartbeat": "2026-03-22T16:49:28.814Z"
-    },
-    {
-      "soul": "Notification System",
-      "emoji": "🔔",
-      "action": "ALERTS: 162 active notifications",
-      "status": "monitoring",
-      "heartbeat": "2026-03-22T16:49:39.060Z"
     }
   ],
   "system_monitor": {
@@ -585,12 +571,12 @@
   },
   "live_stats": {
     "total_pages": 84,
-    "total_words": 76155,
-    "live_views": 6255,
+    "total_words": 76394,
+    "live_views": 6301,
     "live_revenue": 0,
-    "active_agents": 0,
-    "last_heartbeat": "2026-03-22T16:48:48.873Z",
-    "uptime_seconds": 39
+    "active_agents": 3,
+    "last_heartbeat": "2026-03-22T16:49:43.815Z",
+    "uptime_seconds": 53
   },
   "live_counters": {
     "page_views": 6642,
