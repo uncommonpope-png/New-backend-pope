@@ -512,9 +512,9 @@
     {
       "soul": "Soul Master",
       "emoji": "💀",
-      "action": "ORCHESTRATING: 4/4 souls alive, cycle #18",
+      "action": "ORCHESTRATING: 4/4 souls alive, cycle #19",
       "status": "immortal",
-      "heartbeat": "2026-03-22T16:04:58.273Z"
+      "heartbeat": "2026-03-22T16:05:59.584Z"
     },
     {
       "soul": "Live Updater Soul",
@@ -546,6 +546,13 @@
       "emoji": "👩‍💼",
       "action": "Monitoring credit markets",
       "status": "active"
+    },
+    {
+      "soul": "Notification System",
+      "emoji": "🔔",
+      "action": "ALERTS: 50 active notifications",
+      "status": "monitoring",
+      "heartbeat": "2026-03-22T16:06:03.742Z"
     }
   ],
   "system_monitor": {
@@ -592,24 +599,12 @@
     "actions_per_minute": 59.90873428906569
   },
   "soul_system": {
-    "master_cycle": 18,
+    "master_cycle": 19,
     "components_alive": 4,
     "total_components": 4,
     "uptime": "ETERNAL"
   },
   "recent_alerts": [
-    {
-      "timestamp": "2026-03-22T16:03:41.856Z",
-      "type": "system_alert",
-      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
-      "priority": "high"
-    },
-    {
-      "timestamp": "2026-03-22T16:04:24.181Z",
-      "type": "traffic_spike",
-      "message": "🚀 TRAFFIC SPIKE: 37.238366263080835 views/min (normal: ~0.8)",
-      "priority": "high"
-    },
     {
       "timestamp": "2026-03-22T16:04:25.148Z",
       "type": "system_alert",
@@ -624,6 +619,18 @@
     },
     {
       "timestamp": "2026-03-22T16:05:10.933Z",
+      "type": "system_alert",
+      "message": "⚠️ SYSTEM ALERT: 2 agents offline (1 active)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:05:57.931Z",
+      "type": "traffic_spike",
+      "message": "🚀 TRAFFIC SPIKE: 33.27413060521794 views/min (normal: ~0.8)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:05:59.193Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 2 agents offline (1 active)",
       "priority": "high"
