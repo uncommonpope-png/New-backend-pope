@@ -548,6 +548,13 @@
       "emoji": "📜",
       "action": "Standing by for visitors",
       "status": "standby"
+    },
+    {
+      "soul": "Notification System",
+      "emoji": "🔔",
+      "action": "ALERTS: 98 active notifications",
+      "status": "monitoring",
+      "heartbeat": "2026-03-22T16:23:44.627Z"
     }
   ],
   "system_monitor": {
@@ -601,18 +608,6 @@
   },
   "recent_alerts": [
     {
-      "timestamp": "2026-03-22T16:21:24.579Z",
-      "type": "system_alert",
-      "message": "⚠️ SYSTEM ALERT: 4 agents offline (0 active)",
-      "priority": "high"
-    },
-    {
-      "timestamp": "2026-03-22T16:22:04.896Z",
-      "type": "traffic_spike",
-      "message": "🚀 TRAFFIC SPIKE: 33.828917704674 views/min (normal: ~0.8)",
-      "priority": "high"
-    },
-    {
       "timestamp": "2026-03-22T16:22:05.920Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
@@ -628,6 +623,18 @@
       "timestamp": "2026-03-22T16:22:49.733Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 4 agents offline (0 active)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:23:38.137Z",
+      "type": "traffic_spike",
+      "message": "🚀 TRAFFIC SPIKE: 34.59192985388967 views/min (normal: ~0.8)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:23:40.077Z",
+      "type": "system_alert",
+      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
       "priority": "high"
     }
   ],
