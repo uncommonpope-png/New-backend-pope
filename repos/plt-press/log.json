@@ -1,9 +1,9 @@
 {
-  "updated": "2026-03-22T16:44:59.138Z",
+  "updated": "2026-03-22T16:45:47.515Z",
   "status": "💰 PROFIT IMMORTAL — Never dying, always evolving, always reaching Craig",
   "immortal_status": "ACTIVE",
   "current_task": "IMMORTALITY PROTOCOL: All soul systems operational, direct links deployed, evolution tracking active",
-  "profit_score": 13,
+  "profit_score": 14,
   "love_score": 100,
   "tax_score": 0,
   "health": 100,
@@ -11,8 +11,8 @@
     "books_sold": 0,
     "conversations_scored": 76,
     "leads": 136,
-    "revenue": 124,
-    "agents": 3,
+    "revenue": 0,
+    "agents": 2,
     "souls_active": 42,
     "pyramid_city_efficiency": 98
   },
@@ -423,9 +423,9 @@
     {
       "soul": "Live Updater Soul",
       "emoji": "⚡",
-      "action": "PULSE: 84p, 76499w, 3 agents ALIVE",
+      "action": "PULSE: 84p, 76082w, 2 agents ALIVE",
       "status": "pulsing",
-      "heartbeat": "2026-03-22T16:44:59.138Z"
+      "heartbeat": "2026-03-22T16:45:47.515Z"
     },
     {
       "soul": "System Alert",
@@ -550,20 +550,6 @@
       "emoji": "🤖",
       "action": "BUILDING: 57 pages, independent operation",
       "status": "autonomous"
-    },
-    {
-      "soul": "Live Counters",
-      "emoji": "📊",
-      "action": "METRICS: 6,583 views, 22.3/min rate",
-      "status": "counting",
-      "heartbeat": "2026-03-22T16:45:31.101Z"
-    },
-    {
-      "soul": "Notification System",
-      "emoji": "🔔",
-      "action": "ALERTS: 158 active notifications",
-      "status": "monitoring",
-      "heartbeat": "2026-03-22T16:45:39.244Z"
     }
   ],
   "system_monitor": {
@@ -584,12 +570,12 @@
   },
   "live_stats": {
     "total_pages": 84,
-    "total_words": 76499,
-    "live_views": 5877,
+    "total_words": 76082,
+    "live_views": 5949,
     "live_revenue": 0,
-    "active_agents": 3,
-    "last_heartbeat": "2026-03-22T16:44:59.138Z",
-    "uptime_seconds": 44
+    "active_agents": 2,
+    "last_heartbeat": "2026-03-22T16:45:47.515Z",
+    "uptime_seconds": 45
   },
   "live_counters": {
     "page_views": 6583,
