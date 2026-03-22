@@ -512,9 +512,9 @@
     {
       "soul": "Soul Master",
       "emoji": "💀",
-      "action": "ORCHESTRATING: 4/4 souls alive, cycle #21",
+      "action": "ORCHESTRATING: 4/4 souls alive, cycle #22",
       "status": "immortal",
-      "heartbeat": "2026-03-22T16:08:02.686Z"
+      "heartbeat": "2026-03-22T16:09:03.963Z"
     },
     {
       "soul": "Live Updater Soul",
@@ -546,6 +546,13 @@
       "emoji": "👩‍💼",
       "action": "Monitoring credit markets",
       "status": "active"
+    },
+    {
+      "soul": "Notification System",
+      "emoji": "🔔",
+      "action": "ALERTS: 58 active notifications",
+      "status": "monitoring",
+      "heartbeat": "2026-03-22T16:09:11.521Z"
     }
   ],
   "system_monitor": {
@@ -592,24 +599,12 @@
     "actions_per_minute": 53.405191459940234
   },
   "soul_system": {
-    "master_cycle": 21,
+    "master_cycle": 22,
     "components_alive": 4,
     "total_components": 4,
     "uptime": "ETERNAL"
   },
   "recent_alerts": [
-    {
-      "timestamp": "2026-03-22T16:06:45.024Z",
-      "type": "system_alert",
-      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
-      "priority": "high"
-    },
-    {
-      "timestamp": "2026-03-22T16:07:28.641Z",
-      "type": "traffic_spike",
-      "message": "🚀 TRAFFIC SPIKE: 30.14205124296763 views/min (normal: ~0.8)",
-      "priority": "high"
-    },
     {
       "timestamp": "2026-03-22T16:07:29.869Z",
       "type": "system_alert",
@@ -626,6 +621,18 @@
       "timestamp": "2026-03-22T16:08:25.164Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:09:07.793Z",
+      "type": "traffic_spike",
+      "message": "🚀 TRAFFIC SPIKE: 29.049755854613963 views/min (normal: ~0.8)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:09:08.554Z",
+      "type": "system_alert",
+      "message": "⚠️ SYSTEM ALERT: 3 agents offline (0 active)",
       "priority": "high"
     }
   ],
