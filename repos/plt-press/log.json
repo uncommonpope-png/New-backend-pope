@@ -9,9 +9,9 @@
   "health": 100,
   "collectors": {
     "books_sold": 0,
-    "conversations_scored": 75,
+    "conversations_scored": 76,
     "leads": 136,
-    "revenue": 0,
+    "revenue": 124,
     "agents": 0,
     "souls_active": 42,
     "pyramid_city_efficiency": 98
@@ -550,6 +550,20 @@
       "emoji": "🤖",
       "action": "BUILDING: 57 pages, independent operation",
       "status": "autonomous"
+    },
+    {
+      "soul": "Live Counters",
+      "emoji": "📊",
+      "action": "METRICS: 6,561 views, 24.4/min rate",
+      "status": "counting",
+      "heartbeat": "2026-03-22T16:43:31.215Z"
+    },
+    {
+      "soul": "Notification System",
+      "emoji": "🔔",
+      "action": "ALERTS: 154 active notifications",
+      "status": "monitoring",
+      "heartbeat": "2026-03-22T16:43:38.445Z"
     }
   ],
   "system_monitor": {
@@ -578,22 +592,22 @@
     "uptime_seconds": 33
   },
   "live_counters": {
-    "page_views": 6560,
-    "total_words": 91006,
+    "page_views": 6561,
+    "total_words": 91018,
     "revenue_cents": 12404,
     "leads_generated": 136,
-    "conversations_scored": 75,
-    "agent_actions": 8106,
+    "conversations_scored": 76,
+    "agent_actions": 8109,
     "git_commits": 211,
-    "seo_impressions": 27650,
-    "link_clicks": 1468,
-    "uptime_seconds": 22590
+    "seo_impressions": 27684,
+    "link_clicks": 1469,
+    "uptime_seconds": 22600
   },
   "counter_rates": {
-    "views_per_minute": 26.491888638999022,
-    "words_per_hour": 16455.91376787298,
+    "views_per_minute": 24.442699775099122,
+    "words_per_hour": 15242.322391085681,
     "revenue_per_hour": 0.15,
-    "actions_per_minute": 47.148700920654235
+    "actions_per_minute": 44.23383082858881
   },
   "soul_system": {
     "master_cycle": 55,
@@ -602,18 +616,6 @@
     "uptime": "ETERNAL"
   },
   "recent_alerts": [
-    {
-      "timestamp": "2026-03-22T16:41:44.724Z",
-      "type": "system_alert",
-      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
-      "priority": "high"
-    },
-    {
-      "timestamp": "2026-03-22T16:42:22.293Z",
-      "type": "traffic_spike",
-      "message": "🚀 TRAFFIC SPIKE: 27.361731170720958 views/min (normal: ~0.8)",
-      "priority": "high"
-    },
     {
       "timestamp": "2026-03-22T16:42:22.743Z",
       "type": "system_alert",
@@ -628,6 +630,18 @@
     },
     {
       "timestamp": "2026-03-22T16:42:58.753Z",
+      "type": "system_alert",
+      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:43:34.933Z",
+      "type": "traffic_spike",
+      "message": "🚀 TRAFFIC SPIKE: 24.442699775099122 views/min (normal: ~0.8)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:43:35.616Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
       "priority": "high"
