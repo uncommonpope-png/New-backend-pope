@@ -11,7 +11,7 @@
     "books_sold": 0,
     "conversations_scored": 75,
     "leads": 136,
-    "revenue": 0,
+    "revenue": 123,
     "agents": 0,
     "souls_active": 42,
     "pyramid_city_efficiency": 98
@@ -540,9 +540,9 @@
     {
       "soul": "Soul Master",
       "emoji": "💀",
-      "action": "ORCHESTRATING: 4/4 souls alive, cycle #49",
+      "action": "ORCHESTRATING: 4/4 souls alive, cycle #50",
       "status": "immortal",
-      "heartbeat": "2026-03-22T16:36:58.236Z"
+      "heartbeat": "2026-03-22T16:37:59.573Z"
     },
     {
       "soul": "Live Updater Soul",
@@ -550,6 +550,13 @@
       "action": "PULSE: 84p, 76151w, 0 agents ALIVE",
       "status": "pulsing",
       "heartbeat": "2026-03-22T16:37:38.940Z"
+    },
+    {
+      "soul": "Live Counters",
+      "emoji": "📊",
+      "action": "METRICS: 6,451 views, 26.3/min rate",
+      "status": "counting",
+      "heartbeat": "2026-03-22T16:37:52.040Z"
     }
   ],
   "system_monitor": {
@@ -578,25 +585,25 @@
     "uptime_seconds": 33
   },
   "live_counters": {
-    "page_views": 6449,
-    "total_words": 89973,
+    "page_views": 6451,
+    "total_words": 90009,
     "revenue_cents": 12311,
     "leads_generated": 136,
     "conversations_scored": 75,
-    "agent_actions": 7919,
+    "agent_actions": 7926,
     "git_commits": 209,
-    "seo_impressions": 27144,
-    "link_clicks": 1405,
-    "uptime_seconds": 22350
+    "seo_impressions": 27160,
+    "link_clicks": 1409,
+    "uptime_seconds": 22360
   },
   "counter_rates": {
-    "views_per_minute": 27.90890805533637,
-    "words_per_hour": 15307.584131216994,
+    "views_per_minute": 26.318017249802732,
+    "words_per_hour": 15072.825718095295,
     "revenue_per_hour": 0.15,
-    "actions_per_minute": 54.586926968877755
+    "actions_per_minute": 53.328234271989984
   },
   "soul_system": {
-    "master_cycle": 49,
+    "master_cycle": 50,
     "components_alive": 4,
     "total_components": 4,
     "uptime": "ETERNAL"
