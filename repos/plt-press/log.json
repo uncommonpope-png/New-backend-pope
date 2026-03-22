@@ -11,7 +11,7 @@
     "books_sold": 0,
     "conversations_scored": 76,
     "leads": 136,
-    "revenue": 0,
+    "revenue": 124,
     "agents": 3,
     "souls_active": 42,
     "pyramid_city_efficiency": 98
@@ -550,6 +550,13 @@
       "emoji": "🤖",
       "action": "BUILDING: 57 pages, independent operation",
       "status": "autonomous"
+    },
+    {
+      "soul": "Live Counters",
+      "emoji": "📊",
+      "action": "METRICS: 6,581 views, 23.5/min rate",
+      "status": "counting",
+      "heartbeat": "2026-03-22T16:45:08.440Z"
     }
   ],
   "system_monitor": {
@@ -578,22 +585,22 @@
     "uptime_seconds": 44
   },
   "live_counters": {
-    "page_views": 6579,
-    "total_words": 91207,
+    "page_views": 6581,
+    "total_words": 91218,
     "revenue_cents": 12404,
     "leads_generated": 136,
     "conversations_scored": 76,
-    "agent_actions": 8134,
+    "agent_actions": 8146,
     "git_commits": 211,
-    "seo_impressions": 27783,
-    "link_clicks": 1481,
-    "uptime_seconds": 22640
+    "seo_impressions": 27822,
+    "link_clicks": 1485,
+    "uptime_seconds": 22650
   },
   "counter_rates": {
-    "views_per_minute": 24.726655322442536,
-    "words_per_hour": 16080.203720791316,
+    "views_per_minute": 23.453989790198282,
+    "words_per_hour": 14868.183348712186,
     "revenue_per_hour": 0.15,
-    "actions_per_minute": 41.71901640663712
+    "actions_per_minute": 44.74711476597341
   },
   "soul_system": {
     "master_cycle": 56,
