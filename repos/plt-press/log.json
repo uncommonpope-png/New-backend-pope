@@ -549,6 +549,13 @@
       "emoji": "💰",
       "action": "Building revenue streams",
       "status": "active"
+    },
+    {
+      "soul": "Notification System",
+      "emoji": "🔔",
+      "action": "ALERTS: 112 active notifications",
+      "status": "monitoring",
+      "heartbeat": "2026-03-22T16:28:18.864Z"
     }
   ],
   "system_monitor": {
@@ -602,18 +609,6 @@
   },
   "recent_alerts": [
     {
-      "timestamp": "2026-03-22T16:26:18.728Z",
-      "type": "system_alert",
-      "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
-      "priority": "high"
-    },
-    {
-      "timestamp": "2026-03-22T16:26:53.226Z",
-      "type": "traffic_spike",
-      "message": "🚀 TRAFFIC SPIKE: 29.980207962168066 views/min (normal: ~0.8)",
-      "priority": "high"
-    },
-    {
       "timestamp": "2026-03-22T16:26:53.725Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 2 agents offline (1 active)",
@@ -629,6 +624,18 @@
       "timestamp": "2026-03-22T16:27:33.182Z",
       "type": "system_alert",
       "message": "⚠️ SYSTEM ALERT: 5 agents offline (0 active)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:28:14.665Z",
+      "type": "traffic_spike",
+      "message": "🚀 TRAFFIC SPIKE: 31.311995699622564 views/min (normal: ~0.8)",
+      "priority": "high"
+    },
+    {
+      "timestamp": "2026-03-22T16:28:15.438Z",
+      "type": "system_alert",
+      "message": "⚠️ SYSTEM ALERT: 2 agents offline (1 active)",
       "priority": "high"
     }
   ],
