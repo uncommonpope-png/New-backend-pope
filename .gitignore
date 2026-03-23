@@ -1,0 +1,6 @@
+.ollama/
+.npm/
+.qwen/
+downloads/
+profit-workspace-backup/
+termux-backup-local/
