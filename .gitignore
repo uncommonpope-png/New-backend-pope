@@ -4,3 +4,8 @@
 downloads/
 profit-workspace-backup/
 termux-backup-local/
+.git-credentials
+.env
+.bashrc
+.bashrc.bak
+.openclaw/
