@@ -1,4 +1,3 @@
-            
             push = input("🤖 Push to GitHub? (y/n): ")
             if push.lower() == 'y':
                 git_push()
@@ -498,3 +497,4 @@ qwen
 openclaw gateway
 openclaw gateway stop
 qwen
+/data/data/com.termux/files/home/voxel-game.html
